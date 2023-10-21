@@ -1,0 +1,64 @@
+p, select {
+    font-family: 'Just Another Hand', cursive; 
+    font-size: 2.5em;
+}
+
+li {
+    font-family: 'Just Another Hand', cursive; 
+    font-size: 2em;
+}
+
+label, a, #drawButt, #Clear, input[type='submit'], input[type='text'] {
+    font-family: 'Just Another Hand', cursive; 
+    font-size: 1.5em;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-gap: 20px;
+    background-color: #264653;
+}
+
+#form1, #landingContainer {
+    grid-column: 1 / 2;
+
+    padding: 8px;
+
+    background-color: #2A9D8F;
+    border-style: solid;
+    border-color: #E9C46A;
+    border-radius: 16px;
+
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#imageContainer {
+    grid-column: 2 / 3; 
+    grid-row: 1 / 2;
+    width: 100%; 
+    height: 700px;
+
+    position: relative; 
+
+    background-image: url("../images/crumpledPaper.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border-style: solid;
+    border-color: #E9C46A;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#imageContainer img {
+    width: 100%; 
+    height: 100%; 
+
+    object-fit: contain;
+}
